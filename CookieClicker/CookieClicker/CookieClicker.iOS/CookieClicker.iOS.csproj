@@ -133,4 +133,7 @@
       <Name>CookieClicker</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cookie.png" />
+  </ItemGroup>
 </Project>
