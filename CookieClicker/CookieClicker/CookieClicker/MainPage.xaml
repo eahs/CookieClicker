@@ -10,7 +10,7 @@
                 <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
             </Image.GestureRecognizers>
         </Image>
-        <Label x:Name="MyLabel" Text="Welcome to Xamarin.Forms!" 
+        <Label x:Name="MyLabel" Text="{Binding Message}" 
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
         <Button Text="Press Me" Clicked="Button_Clicked"/>
